@@ -1,4 +1,8 @@
 body {
+    display: flex;
+    justify-content: center;
+    height: 1400px;
+    align-items: center;
     background-color: black;
 }
 
@@ -6,9 +10,7 @@ body {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 25%;
-    max-width: 730px;
+    width: 730px;
 }
 
 .square {
