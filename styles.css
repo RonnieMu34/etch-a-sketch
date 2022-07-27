@@ -8,6 +8,7 @@ body {
 
 .grid-container {
     display: flex;
+    flex-shrink: 0;
     gap: 5px;
     flex-wrap: wrap;
     width: 730px;
