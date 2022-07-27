@@ -8,10 +8,11 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 25%;
+    max-width: 730px;
 }
 
 .square {
     border: 3px solid white;
-    width: 30px;
-    height: 30px;
+    width: 34px;
+    height: 34px;
 }
