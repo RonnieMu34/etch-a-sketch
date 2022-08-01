@@ -1,5 +1,7 @@
 body {
     display: flex;
+    height: 1000px;
+    width: 1000px;
     justify-content: center;
     align-items: center;
     background-color: black;
@@ -8,19 +10,13 @@ body {
 .grid-container {
     display: flex;
     flex-shrink: 0;
-    gap: 5px;
+    gap: 3px;
     flex-wrap: wrap;
-    width: 1000px;
-    height: 1000px;
-    max-width: 1000px;
-    max-height: 1000px;
 }
 
 .square {
-    border: 1px solid white;
-    margin-bottom: 5px;
-    min-height: 10px;
-    min-width: 10px;
+    border: 1px dotted white;
+    margin-bottom: 3px;
 }
 
 .square:hover {
