@@ -12,7 +12,12 @@ body {
     flex-shrink: 0;
     gap: 5px;
     flex-wrap: wrap;
-    width: 730px;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+.square {
+    margin-bottom: 5px;
 }
 
 .square {
