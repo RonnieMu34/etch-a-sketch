@@ -3,6 +3,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 .content {
@@ -22,6 +24,8 @@ body {
 .square {
     border: 1px dotted white;
     margin-bottom: 3px;
+    width: auto;
+    height: 100%;
 }
 
 .square:hover {
