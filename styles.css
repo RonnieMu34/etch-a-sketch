@@ -4,6 +4,10 @@ body {
     background-color: black;
 }
 
+.grid-container {
+    display: flex;
+}
+
 .square {
     border:1px dashed white;
     width: 10px;
