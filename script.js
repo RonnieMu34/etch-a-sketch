@@ -1,5 +1,4 @@
 const container = document.querySelector(".grid-container");
-const gridCell = document.querySelector(".square");
 
 // for (let i = 0; i < 256; i++) {
 //     let square = document.createElement('div');
@@ -18,6 +17,10 @@ for (let x = 0; x < 10; x++) {
         }
 }
 
-gridCell.addEventListener("mouseover", () => {
-    gridCell.classList.add('hov-square');
+const gridCells = document.querySelectorAll(".square");
+
+gridCells.forEach(cell => {
+    cell.addEventListener("mouseover", () => {
+        cell.classList.add("hov-square");
+    });
 });
