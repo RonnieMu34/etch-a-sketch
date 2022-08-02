@@ -6,6 +6,10 @@ body {
 
 .grid-container {
     display: flex;
+    width: 750px;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
 }
 
 .square {
