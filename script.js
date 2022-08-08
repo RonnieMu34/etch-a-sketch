@@ -1,5 +1,6 @@
 const container = document.querySelector(".grid-container");
 var btn = document.getElementById("submit");
+var reset = document.getElementById("reset");
 
 btn.addEventListener("click", () => {
     let squares = document.getElementById("number").value;
@@ -18,6 +19,13 @@ btn.addEventListener("click", () => {
     gridCells.forEach(cell => {
         cell.addEventListener("mouseover", () => {
             cell.classList.add("hov-square");
+        });
+    });
+
+    reset.addEventListener("click", () => {
+        gridCells.forEach(cell => {
+            cell.classList.remove("hov-square");
+            container.removeChild(cell);
         });
     });
 
