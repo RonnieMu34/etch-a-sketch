@@ -12,7 +12,9 @@
 
 <body>
     <div class="input-section">
-        <input type="number" id="user-input">
+        <form id="form" onsubmit="getForm()" target="_self">
+            <input id="task" placeholder="Enter a number 1-100" type="number">
+          </form>
         <button id="input-button">Submit</button>
     </div>
     <div class="grid-container"></div>
