@@ -1,3 +1,9 @@
 body {
     background-color: black;
 }
+
+.grid-container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+}
