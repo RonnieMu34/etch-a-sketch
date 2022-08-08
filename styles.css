@@ -13,3 +13,7 @@ body {
     display: grid;
     border: 1px solid white;
 }
+
+.square {
+    border: 1px solid rgb(66, 66, 66);
+}
