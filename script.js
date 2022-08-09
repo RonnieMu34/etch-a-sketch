@@ -1,5 +1,5 @@
 const container = document.querySelector(".grid-container");
-var btn = document.getElementById("submit");
+var slider = document.getElementById("myRange");
 var reset = document.getElementById("reset");
 
 btn.addEventListener("click", () => {
