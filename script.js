@@ -1,9 +1,9 @@
 const container = document.querySelector(".grid-container");
-var btn = document.getElementById("submit");
+var slider = document.getElementById("slider");
 var reset = document.getElementById("reset");
 
-btn.addEventListener("click", () => {
-    let squares = document.getElementById("number").value;
+slider.addEventListener("change", () => {
+    let squares = slider.value;
 
     container.style.gridTemplateRows = `repeat(${squares}, 1fr)`;
     container.style.gridTemplateColumns = `repeat(${squares}, 1fr)`;
