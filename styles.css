@@ -28,6 +28,6 @@ body {
     border: 1px solid rgb(66, 66, 66);
 }
 
-.hov-square{
+.hov-square{ /* This property is added to each square cell if you hover over them, making them grey */
     background-color: grey;
 }
