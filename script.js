@@ -20,6 +20,7 @@ slider.addEventListener("change", () => { // This is the slider event listener
     let mouse_down = false;
     document.body.onmousedown = () => mouse_down = true;
     document.body.onmouseup = () => mouse_down = false;
+    document.body.onmousemove = () => 
 
     gridCells.forEach(cell => { // This is how the new property is added to grey-out a square after a square is hovered over
         cell.addEventListener("mouseover", () => {
