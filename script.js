@@ -23,6 +23,9 @@ slider.addEventListener("change", () => { // This is the slider event listener
     document.body.onmousemove = () => 
 
     gridCells.forEach(cell => { // This is how the new property is added to grey-out a square after a square is hovered over
+        cell.addEventListener("mousedown", () => {
+            cell.classList.add("hov-square");
+        })
         cell.addEventListener("mouseover", () => {
                 if (mouse_down)
                     cell.classList.add("hov-square");
