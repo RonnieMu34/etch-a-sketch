@@ -31,3 +31,8 @@ body {
 .hov-square{ /* This property is added to each square cell if you hover over them, making them grey */
     background-color: grey;
 }
+
+.input-section {
+    display: flex;
+    color: white;
+}
