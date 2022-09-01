@@ -1,7 +1,10 @@
 const container = document.querySelector(".grid-container");
 var slider = document.getElementById("slider");
+var slideVal = document.getElementById("demo");
 
 slider.addEventListener("change", () => { // This is the slider event listener
+    
+    slideVal.innerHTML = `${slider.value} x ${slider.value}`; 
     let squares = slider.value;
 
     container.innerHTML = "";
@@ -31,5 +34,4 @@ slider.addEventListener("change", () => { // This is the slider event listener
                     cell.classList.add("hov-square");
         });
     });
-
 });
