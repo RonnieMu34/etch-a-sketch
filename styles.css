@@ -46,4 +46,7 @@ h1 {
 
 .input-slider {
     width: 200px;
+    border-radius: 25px;
+    -webkit-appearance: none;
+    
 }
