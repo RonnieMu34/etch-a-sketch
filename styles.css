@@ -46,7 +46,15 @@ h1 {
 
 .input-slider {
     width: 200px;
+    height: 20px;
     border-radius: 25px;
-    -webkit-appearance: none;
-    
+    -webkit-appearance: none;  
+}
+
+.input-slider::-webkit-slider-thumb {
+    appearance: none;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px;
 }
