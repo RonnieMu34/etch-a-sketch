@@ -22,6 +22,7 @@ body {
     height: 800px;
     display: grid;
     border: 3px solid white;
+    margin-top: 100px;
 }
 
 .square {
@@ -33,6 +34,7 @@ body {
 }
 
 .input-section {
+    margin-top: 20px;
     display: flex;
     color: white;
 }
