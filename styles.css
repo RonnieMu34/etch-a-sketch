@@ -36,6 +36,9 @@ body {
     margin-top: 20px;
     display: flex;
     color: white;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 h1 {
