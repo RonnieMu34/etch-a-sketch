@@ -22,7 +22,6 @@ body {
     height: 800px;
     display: grid;
     border: 3px solid white;
-    margin-top: 100px;
 }
 
 .square {
